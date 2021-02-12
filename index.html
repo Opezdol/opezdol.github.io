@@ -2,12 +2,58 @@
     <html>
     <head>
         <title>
-            opezdol's place
+            Under construction
         </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="logic.js"></script>
     </head>
 
     <body>
-        This is my site. Lets try to make this world better.
+        <header>
+            <ul>
+                <li>Current Stage</li>
+                <li>Models</li>
+                <li>About</li>
+                <li>WriteMe</li>
+            </ul>
+        </header>
+        <h2>This is my site. Lets try to make this world better.</h2>
+        <dialog>Hey!</dialog>
+
+
+        <!-- The grid: four columns -->
+        <div class="row">
+            <div class="column">
+            <img src="img/DSCF4084.JPG"  alt="Obj_69" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+            <img src="img/DSCF4085.JPG" alt="Obj_69" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+            <img src="img/DSCF4086.JPG" alt="Obj_69" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+            <img src="img/DSCF4087.JPG" alt="Lots of cables" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+            <img src="img/DSCF4088.JPG" alt="Same.." onclick="myFunction(this);">
+            </div>
+            <div class="column">
+            <img src="img/DSCF4089.JPG" alt="View: left" onclick="myFunction(this);">
+            </div>
+        </div>
+        
+        <!-- The expanding image container -->
+        <div class="container">
+            <!-- Close the image -->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        
+            <!-- Expanded image -->
+            <img id="expandedImg" style="width:100%">
+        
+            <!-- Image text -->
+            <div id="imgtext"></div>
+        </div> 
 
     </body>
 </html>
