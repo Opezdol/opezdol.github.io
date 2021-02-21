@@ -1,3 +1,12 @@
+h3 {
+  text-shadow: 2px;
+  color: lightsalmon;
+}  
+
+
+
+ 
+ 
  /* The grid: Four equal columns that floats next to each other */
  .column {
     float: left;
